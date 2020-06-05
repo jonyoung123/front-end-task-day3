@@ -1,0 +1,89 @@
+/*
+styling of index.html file
+*/
+body{
+    background-image: radial-gradient(pink, rgb(130, 93, 231));
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-size: large;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+@media screen and (min-width: 800px){
+    body{
+    background-image: radial-gradient(pink, rgb(130, 93, 231));
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-size: x-large;
+    padding-left: 10px;
+    padding-right: 10px;}
+}
+a:link{
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+a:hover{
+    color: whitesmoke;
+}
+a:visited{
+    color: chartreuse;
+}
+#inline p{
+    display: inline;
+}
+#inline{
+    word-spacing: 18px;
+    padding-right: 5px;
+    padding-left: 5px;
+
+}
+@media screen and (min-width: 800px) {
+    #inline{
+        word-spacing: 50px;
+        padding-right: 20px;
+        padding-left: 20px;}
+}
+.inline{background-attachment: fixed; background-color: darkcyan;}
+#inline-block p{ display: inline-block;}
+#inline-block{
+    word-spacing: 18px;
+    padding-right: 5px;
+    padding-left: 5px;
+
+}
+@media screen and (min-width: 800px) {
+    #inline-block{
+        word-spacing: 50px;
+        padding-right: 20px;
+        padding-left: 20px;}
+}
+.inline-block{background-attachment: fixed; background-color: darkgray;}
+#flex p{ display: flex;}
+#flex{
+    word-spacing: 18px;
+    padding-right: 5px;
+    padding-left: 5px;
+
+}
+@media screen and (min-width: 800px) {
+    #flex{
+        word-spacing: 50px;
+        padding-right: 20px;
+        padding-left: 20px;}
+}
+.flex{background-attachment: fixed; background-color: deeppink;;}
+#block p{ display: block;}
+#block{
+    word-spacing: 18px;
+    padding-right: 5px;
+    padding-left: 5px;
+
+}
+@media screen and (min-width: 800px) {
+    #block{
+        word-spacing: 50px;
+        padding-right: 20px;
+        padding-left: 20px;}
+}
+.block{background-attachment: fixed; background-color: magenta;}
